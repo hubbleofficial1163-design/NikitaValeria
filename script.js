@@ -2,7 +2,7 @@
 class WeddingFormSender {
     constructor() {
         // Замените URL на ваш URL из Google Apps Script
-        this.SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyRO_FrdtH8__dkal5R4IHiDl8_-C_2UrDK0sdBx7_RrQkzoVAwJeYbECiXsTpNbUKZ/exec';
+        this.SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwDjrqyxAbt11fXsU0Ey_aee74L_BDKf4EqLMhnX6cxp4QfLA1o2h_Ih9ZXxKOT6JPg/exec';
     }
 
     showNotification(message, type = 'success') {
@@ -304,3 +304,4 @@ document.addEventListener('DOMContentLoaded', () => {
         audio.load();
     });
 });
+
